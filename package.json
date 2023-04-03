@@ -1,0 +1,30 @@
+{
+  "name": "syncmyfolder",
+  "version": "1.0.0",
+  "description": "This simple project will sync the given folder with the google drive folder",
+  "type": "module",
+  "bin": {
+    "syncmyfolder": "./commands/index.js"
+  },
+  "main": "./commands/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node commands/index.js"
+  },
+  "keywords": [
+    "sync",
+    "with",
+    "google",
+    "drive"
+  ],
+  "author": "Shaikh Wasi Sadman",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "googleapis": "^114.0.0",
+    "google-auth-library": "^7.7.0",
+    "inquirer": "^8.2.0",
+    "yargs": "^17.4.1",
+    "enquirer": "^2.3.6"
+  }
+}
